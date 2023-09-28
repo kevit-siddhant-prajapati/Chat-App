@@ -1,0 +1,24 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mustache": "^4.2.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "moment": "^2.29.4",
+    "qs": "^6.11.2",
+    "socket.io": "^4.7.2"
+  }
+}
